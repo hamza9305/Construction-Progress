@@ -30,5 +30,5 @@ The region of interest that is to be monitored can be selected by drawing a boun
   <img width="320" height="180" src="https://github.com/hamza9305/Construction-Progress/blob/main/data/Images/mask.png">
 </p>
 <p align="center">
-  <img width="320" height="180" src="https://github.com/hamza9305/Construction-Progress/blob/main/data/Images/maked_img.png">
+  <img width="320" height="180" src="https://github.com/hamza9305/Construction-Progress/blob/main/data/Images/maked_img.png" img align = "left">
 </p>
