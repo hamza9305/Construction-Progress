@@ -26,10 +26,10 @@ The region of interest that is to be monitored can be selected by drawing a boun
 <p align="center">
   <img width="320" height="180" src="https://github.com/hamza9305/Construction-Progress/blob/main/data/Images/image0.png" img align = "left"> 
 </p>
-:heavy_plus_sign:
+
 <p align="center">
   <img width="320" height="180" src="https://github.com/hamza9305/Construction-Progress/blob/main/data/Images/mask.png" img align = "right">
 </p>
 <p align="center">
-  <img width="320" height="180" src="https://github.com/hamza9305/Construction-Progress/blob/main/data/Images/maked_img.png" img align = "left">
+  <img width="320" height="180" src="https://github.com/hamza9305/Construction-Progress/blob/main/data/Images/maked_img.png">
 </p>
