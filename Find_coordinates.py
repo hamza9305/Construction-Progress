@@ -41,7 +41,7 @@ def click_event(event, x, y, flags, params):
 # driver function
 if __name__ == "__main__":
     # reading the image
-    img = cv2.imread('F:\Job Applications\Job Tasks\Oculai\oculai_P_challenge\output\image.png', 1)
+    img = cv2.imread('/image_directory', 1)
 
     # displaying the image
     cv2.imshow('image', img)
