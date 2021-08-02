@@ -18,3 +18,6 @@ conda install -c conda-forge opencv
 ```bash
 conda install -c anaconda numpy
 ```
+## Region of Interest
+The region of interest that is to be monitored can be selected by drawing a bounding box or elsewise a polygon of any shape that can help us to monitor the construction area more closely. The accurate parameters of the polygon can be selected particularly in this project using the script.py which takes in an input image and based on the curser clicks, you can get the image coordinates of the region of interest
+
