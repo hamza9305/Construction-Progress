@@ -94,7 +94,7 @@ while cap.isOpened():
 
         font = cv2.FONT_HERSHEY_SIMPLEX
         if ret:
-            cv2.putText(frame, str(writer), (350, 640), font, 2, (255, 255, 255), 2)
+            cv2.putText(frame, writer, (350, 640), font, 2, (255, 255, 255), 2)
             out.write(frame)
             cv2.namedWindow(winName, cv2.WINDOW_NORMAL)
             cv2.imshow('output', frame)
@@ -104,6 +104,7 @@ while cap.isOpened():
             break
         n_frame += 1
     except:
+        print('End of Video')
         exit(0)
 
 cap.release()
