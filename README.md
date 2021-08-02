@@ -2,6 +2,8 @@
 
 The project monitors the construction progress at a construction site.
 
+![caption](https://github.com/hamza9305/Construction-Progress/blob/main/output/progress.gif)
+
 ## Description
 The script takes in a video input of the construction site, frame by frame. Based on the changes in the pixel intensities the progress of the construction site is monitored. For this script, my region of interest had pixels which were roughly yellow in color therefore I chose relevant pixel boundaries as a check to monitor the progress.
 
