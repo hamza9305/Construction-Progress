@@ -24,3 +24,6 @@ conda install -c anaconda numpy
 The region of interest that is to be monitored can be selected by drawing a bounding box or elsewise a polygon of any shape that can help us to monitor the construction area more closely. The accurate parameters of the polygon can be selected particularly in this project using the [Find_coordinates.py](https://github.com/hamza9305/Construction-Progress/blob/main/Find_coordinates.py) which takes in an input image and based on the curser clicks, you can get the image coordinates of the region of interest.
 
 <img width="320" height="180" src="https://github.com/hamza9305/Construction-Progress/blob/main/data/Images/image0.png"/> <img width="320" height="180" src="https://github.com/hamza9305/Construction-Progress/blob/main/data/Images/mask.png"/> <img width="320" height="180" src="https://github.com/hamza9305/Construction-Progress/blob/main/data/Images/maked_img.png"/>
+
+## Check pixel values inside region of interest
+The upper and lower limits for pixels of a particular colour intensity is set, to be checked against the pixels values inside of the region of interest. You can change the pixel limits as per the colour under observation. You can use the script[main.py](https://github.com/hamza9305/Construction-Progress/blob/main/main.py), which takes in 
